@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+<body>
+    <div class ="container">
+          <div class ="header">
+            <h2> Login</h2>
+
+        </div>
+    <form class="form" id="form">
+        <div class ="form-control-success">
+            <label for="email">email:</label>
+            <input type="text" id="email" name="email" required>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small id="error-email"> Error message </small>
+        </div>
+        <br>
+        <div class ="form-control-success">
+            <label >Password</label>
+            <input type="password"  id="password"  placeholder="Enter your password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small id="error-password"> Error message </small>
+        </div>
+        <br>
+        <button type="submit">login</button>
+    </form>
+    </div>
+        <script src="./script.js"></script>
+
+</body>
+</html>

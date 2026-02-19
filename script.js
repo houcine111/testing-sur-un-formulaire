@@ -19,7 +19,7 @@ form.addEventListener("submit", (e) => {
   function checkInput() {
     // get all value in required field
     // use trim() function for remove whitespace
-    const fullNameValue = fullName.value.trim();
+    const fullNameValue = fullname.value.trim();
     // const usernameValue = userName.value.trim().toLowerCase();
     const emailValue = email.value.trim();
     const genderValue = gender.value;
