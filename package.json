@@ -1,0 +1,15 @@
+{
+  "name": "formvalidationjs-main",
+  "version": "1.0.0",
+  "description": "**Objectif**   Réalisation d'un formulaire et la validation pour s'assurer que les données mises dans un formulaire par un utilisateur sont dans un format correct.   *** Je suis parmi une équipe de développeur pour but de créer un site web dynamique, le chef de projet divisé les travaux entre les développeurs ( Front-end / back-end)et ma mission dans ce projet c'est de créer un formulaire d'inscription pour l'utilisateur avec HTML/CSS/JAVASCRIPT et faire la vérification des données saisie (Côté client)avant d'envoyer les données vers le serveur.",
+  "main": "script.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3"
+  }
+}
